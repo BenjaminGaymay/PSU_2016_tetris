@@ -1,0 +1,12 @@
+Options:
+  --help		Display this help
+  -l --level={num}	Start Tetris at level num (def: 1)
+  -kl --key-left={K}	Move tetrimino on LEFT wihth key K (def: left arrow)
+  -kr --key-right={K}	Move tetrimino on RIGHT wihth key K (def: right arrow)
+  -kt --key-turn={K}	Turn tetrimino with key K (def: top arrow)
+  -kd --key-drop={K}	Set default DROP on key K (def: down arrow)
+  -kq --key-quit={K}	QUIT program when press key K (def: 'Q' key)
+  -kp --key-pause={K}	Pause and restart game when press key K (def: space bar)
+  --map-size={row,col}	Set game size at row, col (def: 20, 10)
+  -w --without-next	Hide next tetrimino (def: false)
+  -d --debug		Debug mode (def: false)
